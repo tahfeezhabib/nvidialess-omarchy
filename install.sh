@@ -40,7 +40,7 @@ source $OMARCHY_INSTALL/config/network.sh
 source $OMARCHY_INSTALL/config/power.sh
 source $OMARCHY_INSTALL/config/timezones.sh
 source $OMARCHY_INSTALL/config/login.sh
-source $OMARCHY_INSTALL/config/nvidia.sh
+# source $OMARCHY_INSTALL/config/nvidia.sh  <-- Removed to avoid NVIDIA module issues
 
 # Development
 show_logo decrypt 920
@@ -81,3 +81,4 @@ show_logo laseretch 920
 show_subtext "You're done! So we'll be rebooting now..."
 sleep 2
 reboot
+
